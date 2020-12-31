@@ -10,10 +10,12 @@ import React, { useState, useEffect } from 'react';
 
 // import { Animation } from '@devexpress/dx-react-chart';
 
+
 const DisplayData = () => {
   return (
     <div className = "displayData">
       <h3>Analytics</h3>
+      <canvas id="myChart"></canvas>
     </div>
   )
 };

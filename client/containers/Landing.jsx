@@ -59,6 +59,7 @@ function Landing () {
       </div>
       <div className = "rightSide">
        <AccountInfo accounts={accounts}/>
+       <DisplayData />
       <Transactions /> 
       </div>
     </div>
