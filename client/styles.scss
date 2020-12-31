@@ -1,9 +1,13 @@
 body {
+<<<<<<< HEAD
   background-color: #dcfadc;
+=======
+  background-color: #90d4e6;
+>>>>>>> 05eac7f2b830d69e67c65a44b983a8e44562c42f
   display: flex;
   // justify-content: center;
   align-items: center;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
 .login {
@@ -13,7 +17,7 @@ body {
   height: 400px;
   background-color: white;
   border-radius: 10px;
-} 
+}
 
 .form {
   display: flex;
@@ -37,17 +41,26 @@ body {
   bottom: 0;
   left: 0;
   background-color: white;
-
 }
 .leftSide {
-  display:flex;
+  display: flex;
   justify-content: center;
+<<<<<<< HEAD
   background-color:#47cf5542;
   flex-grow: 1;
   padding: 10px;
   // box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
   // border-radius: 4px;
   // border: 3px solid white;
+=======
+  background-color: #f8f8f8;
+  flex-grow: 1;
+  padding: 10px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: 3px solid white;
+>>>>>>> 05eac7f2b830d69e67c65a44b983a8e44562c42f
 }
 .rightSide {
   flex-grow: 10;
@@ -57,6 +70,7 @@ body {
   flex-direction: column;
   // border-radius: 10px;
   padding: 10px;
+<<<<<<< HEAD
   // border: 3px solid white;
   background-color: #dcfadc;;
   width: 120%;
@@ -64,29 +78,44 @@ body {
 
 
 .accInfo, .displayData, .transactions, .accountList {
+=======
+  border: 3px solid white;
+  background-color: #90d4e6;
+}
+
+.accInfo,
+.displayData,
+.transactions,
+.accountList {
+>>>>>>> 05eac7f2b830d69e67c65a44b983a8e44562c42f
   border-radius: 4px;
   padding: 10px;
-  background-color:#FFFFFF;
+  background-color: #ffffff;
   text-align: center;
   width: 85%;
   // height: 30%;
   margin-bottom: 5px;
-  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .accInfo h3 {
- margin:0;
+  margin: 0;
 }
 .accInfo p {
-  margin:7px;
- }
+  margin: 7px;
+}
 
 .displayData {
   // height: 20%;
 }
 
 .transactions {
+<<<<<<< HEAD
   // height: 100%;
+=======
+  height: 100vh;
+>>>>>>> 05eac7f2b830d69e67c65a44b983a8e44562c42f
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,13 +130,16 @@ body {
 .linkButton {
   color: #fff;
   background-color: #3f51b5;
-  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   padding: 6px 16px;
   font-size: 0.875rem;
   min-width: 64px;
   box-sizing: border-box;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   font-weight: 500;
   line-height: 1.75;
   border-radius: 4px;
@@ -116,7 +148,5 @@ body {
   margin-bottom: 10px;
   cursor: pointer;
 }
-
-
 
 /////charts///

@@ -67,7 +67,7 @@ plaidController.getTransactions = (request, response, next) => {
     .getTransactions(ACCESS_TOKEN, '2020-10-01', '2020-12-25')
     .then((data) => {
       //add transactions to the database
-      console.log('data account', data.accounts);
+
       const transactions = data.transactions; //array of transactions delivered from the database.
       const simpTransactions = [];
       const simpAccounts = [];
@@ -98,7 +98,7 @@ plaidController.getTransactions = (request, response, next) => {
 
         simpTransactions.push(simpTrx);
       });
-      console.log('simpAccount', simpAccounts);
+
       request.body = [simpTransactions, simpAccounts];
       return next();
     })
