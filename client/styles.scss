@@ -1,9 +1,6 @@
 body {
-<<<<<<< HEAD
   background-color: #dcfadc;
-=======
-  background-color: #90d4e6;
->>>>>>> 05eac7f2b830d69e67c65a44b983a8e44562c42f
+  // background-color: #90d4e6;
   display: flex;
   // justify-content: center;
   align-items: center;
@@ -45,14 +42,12 @@ body {
 .leftSide {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   background-color:#47cf5542;
   flex-grow: 1;
   padding: 10px;
   // box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
   // border-radius: 4px;
   // border: 3px solid white;
-=======
   background-color: #f8f8f8;
   flex-grow: 1;
   padding: 10px;
@@ -60,7 +55,6 @@ body {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: 3px solid white;
->>>>>>> 05eac7f2b830d69e67c65a44b983a8e44562c42f
 }
 .rightSide {
   flex-grow: 10;
@@ -70,7 +64,6 @@ body {
   flex-direction: column;
   // border-radius: 10px;
   padding: 10px;
-<<<<<<< HEAD
   // border: 3px solid white;
   background-color: #dcfadc;;
   width: 120%;
@@ -78,7 +71,6 @@ body {
 
 
 .accInfo, .displayData, .transactions, .accountList {
-=======
   border: 3px solid white;
   background-color: #90d4e6;
 }
@@ -87,7 +79,6 @@ body {
 .displayData,
 .transactions,
 .accountList {
->>>>>>> 05eac7f2b830d69e67c65a44b983a8e44562c42f
   border-radius: 4px;
   padding: 10px;
   background-color: #ffffff;
@@ -111,11 +102,8 @@ body {
 }
 
 .transactions {
-<<<<<<< HEAD
   // height: 100%;
-=======
   height: 100vh;
->>>>>>> 05eac7f2b830d69e67c65a44b983a8e44562c42f
   display: flex;
   justify-content: center;
   align-items: center;
